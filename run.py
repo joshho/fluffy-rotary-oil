@@ -37,10 +37,10 @@ if result:
         server.quit()
     else:
         print("expired")
-        server = smtplib.SMTP(SERVER,PORT)
-        server.starttls()
-        server.login(EMAIL, PASS)
-        server.sendmail(EMAIL, EMAIL, resultDate[0])
-        server.quit()
+        # server = smtplib.SMTP(SERVER,PORT)
+        # server.starttls()
+        # server.login(EMAIL, PASS)
+        # server.sendmail(EMAIL, EMAIL, resultDate[0])
+        # server.quit()
 else:
   print("Search unsuccessful.")	
